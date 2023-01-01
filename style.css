@@ -1,9 +1,11 @@
 body{
     background-color:skyblue
+    
 }
 *{
     margin: 0;
     padding: 0;
+
 }
 nav{
     font-family:'ubantu',sans-serif;
@@ -17,6 +19,10 @@ nav ul{
     height:65px;
     background-color:black;
     color:white;
+    position: sticky;
+    
+    
+
 }
 
 nav ul li{
@@ -34,7 +40,7 @@ nav ul li{
 }
 .container{
     min-height:72vh;
-    background-color: rgb(230, 29, 29);
+
     color: #f4f3f7;
     font-family: 'varela Round',sans-serif;
     display: flex;
@@ -45,6 +51,8 @@ nav ul li{
     background-image: url('bg.jpg') ;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment:s;
+    
  
 
 
@@ -87,6 +95,7 @@ nav ul li{
     justify-content: space-between;
     align-items: center;
     border-radius: 34px;
+
 }
 
 .songItem img{
